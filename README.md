@@ -1,10 +1,11 @@
 # STM Floppy Disk Player
 
 ## Overwiew
-
+Our project use STM32F4 microcontroller to play simple  music on  4 floppy disk drives . 
 ## Descripion
 
 ## Tools
+CooCox CoIDE v 1.7.7
 
 ## How to run
 
