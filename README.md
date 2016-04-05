@@ -5,6 +5,9 @@
 ## Descripion
 
 ## Tools
+-CooCox
+-STM32F407VG Microcontroller
+-up to 4 floppy disks 3,5"
 
 ## How to run
 
