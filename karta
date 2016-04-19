@@ -1,6 +1,12 @@
 // tu nalezy wrzucic biblioteki SPI , RTC ,GPIO itp przy korzystaniu z CoCoxa 
-//#include "fatfs/src/ff.h" - 
-//#include "fatfs/src/diskio.h" 
+#include "stm32f4xx_gpio.h"
+#include "stm32f4xx_rcc.h"
+#include "stm32f4xx_rtc.h"
+#include "stm32f4xx_spi.h"
+#include "stm32f4xx_tim.h"
+//#include "fatfs/src/ff.h" - do sprawdzenia czy nie ma nowszej biblioteki
+//#include "fatfs/src/diskio.h" - ||- 
+
 static
 void SELECT (void) 	// CS w stan niski
 {
@@ -44,7 +50,7 @@ BYTE rcvr_spi (void) 		// Odebranie bajtu z SD
   return Data;
 }
 
-tatic
+static
 BYTE wait_ready (void)
 {
   BYTE res;
