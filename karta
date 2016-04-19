@@ -1,4 +1,6 @@
-// tu nalezy wrzucic biblioteki SPI , GPIO itp 
+// tu nalezy wrzucic biblioteki SPI , RTC ,GPIO itp przy korzystaniu z CoCoxa 
+//#include "fatfs/src/ff.h" - 
+//#include "fatfs/src/diskio.h" 
 static
 void SELECT (void) 	// CS w stan niski
 {
