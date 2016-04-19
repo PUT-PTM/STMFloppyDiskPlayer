@@ -1,4 +1,4 @@
-
+// tu nalezy wrzucic biblioteki SPI , GPIO itp 
 static
 void SELECT (void) 	// CS w stan niski
 {
