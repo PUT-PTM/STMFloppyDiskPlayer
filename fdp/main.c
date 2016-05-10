@@ -53,6 +53,10 @@ int main(void)
 
 		while(1)
 		{
-			DAC_SetChannel1Data(DAC_Align_12b_R, 0xFFF);
+			TIM_GetFlagStatus(TIM4, TIM_FLAG_Update)
+				{
+				DAC_SetChannel1Data(DAC_Align_12b_R, 0xFFF);
+				DAC_SetChannel1Data(DAC_Align_12b_R, 0x000);
+				}
 		}
 }
