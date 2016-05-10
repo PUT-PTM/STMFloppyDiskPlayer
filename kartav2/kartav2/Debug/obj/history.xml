@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IC:\Users\User\Desktop -IC:\Users\User\Desktop\biblioteki -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2 -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis_lib\include -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis_lib -IC:\Users\User -IC:\Users -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis_boot">
+      <target file="stm32f4xx_gpio.o" lastModified="154981efde2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15498060aa0"/>
+      </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="154981f0044">
+         <source file="..\..\..\..\..\..\biblioteki\tm_stm32f4_timer_properties.c" lastModified="154980d09b7"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154981f0146">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154981a521f"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154981efe6a">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15498060aac"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="154981effb1">
+         <source file="..\..\..\..\..\..\biblioteki\tm_stm32f4_gpio.c" lastModified="14de25630e8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1549819e884">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15498060aa8"/>
+      </target>
+      <target file="ff.o" lastModified="1549819ee2f">
+         <source file="..\..\..\..\..\..\biblioteki\ff.c" lastModified="1540bef8070"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="154981eff13">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="154981363a6"/>
+      </target>
+      <target file="tm_stm32f4_spi.o" lastModified="154981efd4b">
+         <source file="..\..\..\..\..\..\tm_stm32f4_spi.c" lastModified="14f312e7c93"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="154981efc60">
+         <source file="..\..\..\..\..\..\biblioteki\tm_stm32f4_delay.c" lastModified="14fdb0eed12"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154981efbbb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15498060ab7"/>
+      </target>
+   </processor>
+</history>
