@@ -14,8 +14,6 @@
         <DefinedSymbols>
           <Define name="STM32F407VG"/>
           <Define name="STM32F4XX"/>
-          <Define name="USE_STDPERIPH_DRIVER"/>
-          <Define name="__ASSEMBLY__"/>
         </DefinedSymbols>
       </Compile>
       <Link useDefault="0">
@@ -70,43 +68,73 @@
   <Components path="./">
     <Component id="54" name="M4 CMSIS Core" path="" type="2"/>
     <Component id="500" name="CMSIS BOOT" path="" type="2"/>
-    <Component id="501" name="RCC" path="" type="2"/>
-    <Component id="504" name="GPIO" path="" type="2"/>
-    <Component id="509" name="SPI" path="" type="2"/>
-    <Component id="513" name="TIM" path="" type="2"/>
-    <Component id="524" name="MISC" path="" type="2"/>
-    <Component id="526" name="SYSCFG" path="" type="2"/>
   </Components>
   <Files>
-    <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
-    <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
-    <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
-    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="cmsis_lib/source/unicode.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/unicode.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_dma.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_dma.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_dac.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_dac.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
-    <File name="cmsis_lib/include/stm32f4xx_syscfg.h" path="cmsis_lib/include/stm32f4xx_syscfg.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_syscfg.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_syscfg.h" type="1"/>
+    <File name="cmsis_lib/include/defines.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/defines.h" type="1"/>
+    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
-    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
-    <File name="cmsis_lib/source/stm32f4xx_spi.c" path="cmsis_lib/source/stm32f4xx_spi.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_spi.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_spi.c" type="1"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
-    <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
     <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
-    <File name="cmsis_lib/include/stm32f4xx_spi.h" path="cmsis_lib/include/stm32f4xx_spi.h" type="1"/>
-    <File name="cmsis_lib/source/misc.c" path="cmsis_lib/source/misc.c" type="1"/>
-    <File name="cmsis" path="" type="2"/>
-    <File name="cmsis_lib/include/stm32f4xx_tim.h" path="cmsis_lib/include/stm32f4xx_tim.h" type="1"/>
-    <File name="cmsis_lib" path="" type="2"/>
+    <File name="cmsis_lib/source/tm_stm32f4_timer_properties.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_timer_properties.c" type="1"/>
+    <File name="cmsis_lib/source/misc.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/misc.c" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_spi_dma.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_spi_dma.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_tim.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_tim.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_adc.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_adc.c" type="1"/>
     <File name="cmsis_lib/source" path="" type="2"/>
-    <File name="cmsis_lib/source/stm32f4xx_tim.c" path="cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
-    <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
-    <File name="cmsis_lib/source/tm_stm32f4_fatfs.c" path="../../../biblioteki/tm_stm32f4_fatfs.c" type="1"/>
-    <File name="cmsis_lib/include/misc.h" path="cmsis_lib/include/misc.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_timer_properties.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_timer_properties.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4_discovery_lis302dl.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4_discovery_lis302dl.c" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_fonts.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_fonts.c" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_dma.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_dma.h" type="1"/>
     <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
-    <File name="cmsis_lib/include/tm_stm32f4_fatfs.h" path="../../../biblioteki/tm_stm32f4_fatfs.h" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_dac.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_dac.c" type="1"/>
+    <File name="cmsis_lib/include/fatfs_sd.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/fatfs_sd.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_gpio.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_gpio.h" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_spi.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_spi.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_syscfg.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_syscfg.c" type="1"/>
+    <File name="cmsis_lib/source/fatfs_sd.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/fatfs_sd.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4_discovery_lis302dl.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4_discovery_lis302dl.h" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_dma.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_dma.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="cmsis_lib/include/diskio.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/diskio.h" type="1"/>
+    <File name="cmsis_lib/include/ffconf.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/ffconf.h" type="1"/>
+    <File name="cmsis_lib/source/syscall.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/syscall.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_adc.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_adc.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_fonts.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_fonts.h" type="1"/>
+    <File name="cmsis_lib/source/ff.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/ff.c" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_spi.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_spi.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_exti.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_exti.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_exti.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_exti.h" type="1"/>
+    <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_gpio.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_gpio.c" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_delay.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_delay.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_spi.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_spi.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_delay.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_delay.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="cmsis_lib/include/attributes.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/attributes.h" type="1"/>
+    <File name="cmsis_lib" path="" type="2"/>
+    <File name="cmsis_lib/include/stm32f4xx_dma.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_dma.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_tim.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_spi_dma.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_spi_dma.h" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_fatfs.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/tm_stm32f4_fatfs.c" type="1"/>
+    <File name="cmsis_lib/include/integer.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/integer.h" type="1"/>
+    <File name="cmsis_lib/source/diskio.c" path="../../../STMParkingAssistant-master/cmsis_lib/source/diskio.c" type="1"/>
+    <File name="cmsis_lib/include/misc.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/misc.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_fatfs.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/tm_stm32f4_fatfs.h" type="1"/>
     <File name="cmsis_lib/include" path="" type="2"/>
-    <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
-    <File name="cmsis_lib/source/stm32f4xx_syscfg.c" path="cmsis_lib/source/stm32f4xx_syscfg.c" type="1"/>
+    <File name="cmsis_lib/include/ff.h" path="../../../STMParkingAssistant-master/cmsis_lib/include/ff.h" type="1"/>
     <File name="main.c" path="main.c" type="1"/>
   </Files>
 </Project>

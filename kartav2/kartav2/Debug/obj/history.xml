@@ -1,38 +1,86 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IC:\Users\User\Desktop -IC:\Users\User\Desktop\biblioteki -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2 -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis_lib\include -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis_lib -IC:\Users\User -IC:\Users -IC:\Users\User\Desktop\STMFloppyDiskPlayer\FloppyDiskPlayer\kartav2\cmsis_boot">
-      <target file="stm32f4xx_gpio.o" lastModified="154981efde2">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15498060aa0"/>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -IC:\Users\User\Desktop\STMParkingAssistant-master\cmsis_lib -IC:\Users\User\Desktop\STMParkingAssistant-master -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2 -IC:\Users\User\Desktop\STMParkingAssistant-master\cmsis_lib\include -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_boot -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer">
+      <target file="stm32f4xx_exti.o" lastModified="154a79f07e2">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1549846c740"/>
       </target>
-      <target file="tm_stm32f4_timer_properties.o" lastModified="154981f0044">
-         <source file="..\..\..\..\..\..\biblioteki\tm_stm32f4_timer_properties.c" lastModified="154980d09b7"/>
+      <target file="stm32f4xx_gpio.o" lastModified="154a79f03b6">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1549846c740"/>
       </target>
-      <target file="stm32f4xx_tim.o" lastModified="154981f0146">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154981a521f"/>
+      <target file="tm_stm32f4_fatfs.o" lastModified="154a7c45548">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_fatfs.c" lastModified="1549846c740"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="154981efe6a">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15498060aac"/>
+      <target file="diskio.o" lastModified="154a7c45764">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\diskio.c" lastModified="1549846c740"/>
       </target>
-      <target file="tm_stm32f4_gpio.o" lastModified="154981effb1">
-         <source file="..\..\..\..\..\..\biblioteki\tm_stm32f4_gpio.c" lastModified="14de25630e8"/>
+      <target file="stm32f4xx_syscfg.o" lastModified="154a79ef9c7">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1549846c740"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="1549819e884">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15498060aa8"/>
+      <target file="tm_stm32f4_gpio.o" lastModified="154a7c45d4f">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="1549846c740"/>
       </target>
-      <target file="ff.o" lastModified="1549819ee2f">
-         <source file="..\..\..\..\..\..\biblioteki\ff.c" lastModified="1540bef8070"/>
+      <target file="fatfs_sd.o" lastModified="154a7c459cb">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\fatfs_sd.c" lastModified="1549846c740"/>
       </target>
-      <target file="stm32f4xx_spi.o" lastModified="154981eff13">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="154981363a6"/>
+      <target file="tm_stm32f4_fonts.o" lastModified="154a7c45e95">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_fonts.c" lastModified="1549846c740"/>
       </target>
-      <target file="tm_stm32f4_spi.o" lastModified="154981efd4b">
-         <source file="..\..\..\..\..\..\tm_stm32f4_spi.c" lastModified="14f312e7c93"/>
+      <target file="startup_stm32f4xx.o" lastModified="154a79efced">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1549824f10d"/>
       </target>
-      <target file="tm_stm32f4_delay.o" lastModified="154981efc60">
-         <source file="..\..\..\..\..\..\biblioteki\tm_stm32f4_delay.c" lastModified="14fdb0eed12"/>
+      <target file="stm32f4xx_tim.o" lastModified="154a79f0c74">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1549846c740"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="154981efbbb">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15498060ab7"/>
+      <target file="stm32f4xx_adc.o" lastModified="154a79eff93">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1549846c740"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154a79f043c">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1549824f113"/>
+      </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="154a7c45de1">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1549846c740"/>
+      </target>
+      <target file="misc.o" lastModified="154a79f086d">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\misc.c" lastModified="1549846c740"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="154a79f0513">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1549846c740"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="154a79f0750">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_spi.c" lastModified="1549846c740"/>
+      </target>
+      <target file="unicode.o" lastModified="154a79ef93d">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\unicode.c" lastModified="1549846c740"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154a79efeb2">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1549846c740"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="154a79efb7e">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1549846c740"/>
+      </target>
+      <target file="tm_stm32f4_dma.o" lastModified="154a7c458d4">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_dma.c" lastModified="1549846c740"/>
+      </target>
+      <target file="stm32f4_discovery_lis302dl.o" lastModified="154a79f09a0">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\stm32f4_discovery_lis302dl.c" lastModified="1549846c740"/>
+      </target>
+      <target file="tm_stm32f4_spi.o" lastModified="154a7c45b32">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_spi.c" lastModified="1549846c740"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="154a7c45a73">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_delay.c" lastModified="1549846c740"/>
+      </target>
+      <target file="syscall.o" lastModified="154a79f0256">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\syscall.c" lastModified="1549846c740"/>
+      </target>
+      <target file="ff.o" lastModified="154a7c45cb3">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\ff.c" lastModified="1549846c740"/>
+      </target>
+      <target file="tm_stm32f4_spi_dma.o" lastModified="154a7c4564e">
+         <source file="..\..\..\..\..\..\STMParkingAssistant-master\cmsis_lib\source\tm_stm32f4_spi_dma.c" lastModified="1549846c740"/>
+      </target>
+      <target file="main.o" lastModified="154a7cb7a0c">
+         <source file="..\..\..\main.c" lastModified="154a7cb76f7"/>
       </target>
    </processor>
 </history>
