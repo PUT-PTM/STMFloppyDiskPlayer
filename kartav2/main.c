@@ -72,3 +72,91 @@ int main(void) {
 
     }
 }
+/*rozwiazanie nr 2
+  void LED_GPIO_conf(){
+		// GPIOD Periph clock enable
+		RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
+
+		GPIO_InitTypeDef  GPIO_InitStructure;
+		// Configure PD12, PD13, PD14 and PD15 in output pushpull mode
+		GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12 | GPIO_Pin_13| GPIO_Pin_14| GPIO_Pin_15;
+		GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+		GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+		GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
+		GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
+		GPIO_Init(GPIOD, &GPIO_InitStructure);
+}
+
+void sdcard(){
+	//Fatfs object
+	FATFS FatFs;
+	//File object
+	FIL fil;
+	//Free and total space
+	uint32_t total, free;
+	TM_DELAY_Init();
+	LED_GPIO_conf();
+	if (f_mount(&FatFs, "", 1) == FR_OK) {
+	        //Mounted OK, turn on RED LED
+	        GPIO_SetBits(GPIOD,GPIO_Pin_14);
+
+	        //Try to open file
+	        if (f_open(&fil, "textfile.txt", FA_OPEN_ALWAYS | FA_READ | FA_WRITE) == FR_OK) {
+	            //File opened, turn off RED and turn on GREEN led
+	        	GPIO_SetBits(GPIOD,GPIO_Pin_12);
+	            GPIO_ResetBits(GPIOD,GPIO_Pin_14);
+
+	            //If we put more than 0 characters (everything OK)
+	            if (f_puts("First string in my file\n", &fil) > 0) {
+	                if (TM_FATFS_DriveSize(&total, &free) == FR_OK) {
+	                    //Data for drive size are valid
+	                }
+
+	                //Turn on both leds
+	                GPIO_SetBits(GPIOD,GPIO_Pin_12|GPIO_Pin_14);
+	            }
+
+	            //Close file
+	            f_close(&fil);
+	        }
+
+	        //Unmount drive
+	        f_mount(0, "", 1);
+	    }
+}
+
+void sdcard1(){
+	FATFS FatFs;
+	FIL fil1;       // File object
+	    char line[82]; // Line buffer
+	    FRESULT fr;    //FatFs return code
+
+
+	    // Register work area to the default drive
+	    f_mount(&FatFs, "", 0);
+
+	    // Open a text file
+	    fr = f_open(&fil1, "message.txt", FA_READ);
+	    if (fr) return (int)fr;
+
+	     //Read all lines and display it
+	    while (f_gets(line, sizeof line, &fil1))
+	        printf(line);
+
+	     //Close the file
+	    f_close(&fil1);
+}
+
+
+
+int main(void) {
+    //Initialize system
+    SystemInit();
+
+
+    //sdcard();
+    sdcard1();
+
+    }
+}
+ /*
