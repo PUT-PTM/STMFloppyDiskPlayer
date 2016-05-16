@@ -9,28 +9,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.coocox.welcome.ui.WelcomePage" name="" partName="welcome" title="welcome" tooltip="" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">
-<org.coocox.welcome.ui.WelcomePage/>
-</input>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/User/Desktop/STMFloppyDiskPlayer/STMFloppyDiskPlayer/kartav2/main.c" title="main.c" tooltip="C:/Users/User/Desktop/STMFloppyDiskPlayer/STMFloppyDiskPlayer/kartav2/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/kartav2/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="277" selectionTopPixel="0"/>
-</editor>
-<editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">
-<subPage horizontalPosition="0" selectedItemId="1153" subPageIndex="2" verticalPosition="0"/>
-</input>
-</editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
@@ -41,6 +23,9 @@
 <element path="/kartav2/cmsis_lib/include"/>
 <element path="/kartav2/cmsis_lib/source"/>
 </expanded>
+<selection>
+<element path="/kartav2/cmsis_lib/include/defines.h"/>
+</selection>
 </viewState>
 </view>
 <view id="org.coocox.component.ui.ComponentView" partName="Components">
@@ -48,11 +33,6 @@
 </view>
 <view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
 <viewState/>
-</view>
-<view id="org.coocox.builder.ui.exampleView" partName="CMSIS BOOT Examples">
-<viewState>
-<Examples ComponentId="500" Title="CMSIS BOOT"/>
-</viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug"/>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
@@ -66,7 +46,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.coocox.component.ui.ComponentView" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
@@ -100,7 +80,6 @@
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <view id="org.coocox.component.ui.Help"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.coocox.builder.ui.exampleView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
 <layout>
@@ -128,11 +107,9 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@152a962" ratio="0.21966527" ratioLeft="420" ratioRight="1492" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c0c6eb">
-<folder activePageID="org.coocox.builder.ui.exampleView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.exampleView" label="CMSIS BOOT Examples"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.exampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@161b440" ratio="0.7921569" ratioLeft="404" ratioRight="106" relationship="2" relative="org.eclipse.ui.internal.ViewStack@152a962">
@@ -251,171 +228,24 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/attributes.h"/>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
-<org.coocox.welcome.ui.WelcomePage/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/diskio.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/ff.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/ffconf.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/integer.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/diskio.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/defines.h"/>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="526" subPageIndex="2" verticalPosition="662"/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/tm_stm32f4_timer_properties.h"/>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="1153" subPageIndex="2" verticalPosition="0"/>
-</editor>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
-<org.coocox.welcome.ui.WelcomePage/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4_discovery_lis302dl.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/proba2.c"/>
-</editors>
-<item historyLabel="diskio.h" index="3">
-<position info="not_deleted" x="469" y="0"/>
-</item>
-<item historyLabel="defines.h" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="attributes.h" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="defines.h" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="diskio.h" index="3">
-<position info="not_deleted" x="469" y="0"/>
-</item>
-<item historyLabel="diskio.c" index="7">
-<position info="not_deleted" x="1" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="1971" y="0"/>
-</item>
-<item historyLabel="welcome" index="1"/>
-<item historyLabel="Repository" index="9"/>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="389" y="0"/>
-</item>
-<item historyLabel="tm_stm32f4_timer_properties.h" index="10">
-<position info="not_deleted" x="1578" y="28"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="389" y="0"/>
-</item>
-<item historyLabel="Repository" index="9"/>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="389" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="2005" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="2007" y="36"/>
-</item>
-<item historyLabel="ff.h" index="4">
-<position info="not_deleted" x="936" y="0"/>
-</item>
-<item historyLabel="ffconf.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="integer.h" index="6">
-<position info="not_deleted" x="407" y="0"/>
-</item>
-<item historyLabel="ffconf.h" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ff.h" index="4">
-<position info="not_deleted" x="936" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="2007" y="36"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="1036" y="41"/>
-</item>
-<item historyLabel="Repository" index="9"/>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="Repository" index="11"/>
-<item historyLabel="welcome" index="12"/>
-<item historyLabel="Repository" index="11"/>
-<item historyLabel="welcome" index="12"/>
-<item historyLabel="Repository" index="11"/>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="stm32f4_discovery_lis302dl.h" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="stm32f4_discovery_lis302dl.h" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="Repository" index="11"/>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="946" y="0"/>
-</item>
-<item historyLabel="proba2.c" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="4717" y="5"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="2602" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="3749" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="2264" y="0"/>
-</item>
-<item active="true" historyLabel="main.c" index="2">
-<position info="not_deleted" x="2106" y="45"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4_discovery_lis302dl.h" tooltip="kartav2/cmsis_lib/include/stm32f4_discovery_lis302dl.h">
-<persistable path="/kartav2/cmsis_lib/include/stm32f4_discovery_lis302dl.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" tooltip="kartav2/cmsis_lib/include/defines.h">
+<persistable path="/kartav2/cmsis_lib/include/defines.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="diskio.c" tooltip="kartav2/cmsis_lib/source/diskio.c">
+<persistable path="/kartav2/cmsis_lib/source/diskio.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="diskio.h" tooltip="kartav2/cmsis_lib/include/diskio.h">
+<persistable path="/kartav2/cmsis_lib/include/diskio.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="proba2/main.c">
+<persistable path="/proba2/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_dac.h" tooltip="test/cmsis_lib/include/stm32f4xx_dac.h">
 <persistable path="/test/cmsis_lib/include/stm32f4xx_dac.h"/>
@@ -449,12 +279,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_delay.h" tooltip="test/cmsis_lib/include/tm_stm32f4_delay.h">
 <persistable path="/test/cmsis_lib/include/tm_stm32f4_delay.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fatfs_sd.c" tooltip="test/cmsis_lib/source/fatfs_sd.c">
-<persistable path="/test/cmsis_lib/source/fatfs_sd.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ccsbcs.c" tooltip="test/cmsis_lib/source/ccsbcs.c">
-<persistable path="/test/cmsis_lib/source/ccsbcs.c"/>
 </file>
 </mruList>
 </workbench>
