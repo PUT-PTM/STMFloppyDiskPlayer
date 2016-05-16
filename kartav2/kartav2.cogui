@@ -2,29 +2,44 @@
 <workbench version="2.0">
 <workbenchAdvisor/>
 <window>
-<fastViewData fastViewLocation="1024"/>
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
+<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
+<orientation position="512" view="org.coocox.component.ui.Help"/>
+</fastViewData>
 <perspectiveBar/>
 <page focus="true" label="Workspace - CooCox CoBuilder">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">
+<subPage horizontalPosition="0" selectedItemId="514" subPageIndex="2" verticalPosition="159"/>
+</input>
+</editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
 <viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
 <expanded>
 <element path="/kartav2"/>
+<element path="/kartav2/cmsis_boot"/>
 <element path="/kartav2/cmsis_lib"/>
 <element path="/kartav2/cmsis_lib/include"/>
 <element path="/kartav2/cmsis_lib/source"/>
+<element path="/kartav2/delay"/>
 </expanded>
 <selection>
-<element path="/kartav2/cmsis_lib/include/defines.h"/>
+<element path="/kartav2/ub"/>
 </selection>
 </viewState>
 </view>
@@ -46,7 +61,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.coocox.component.ui.ComponentView" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.coocox.builder.ui.views.ProjectView" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
@@ -228,57 +243,227 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
+<subPage horizontalPosition="0" selectedItemId="514" subPageIndex="2" verticalPosition="159"/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/misc.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_adc.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_dma.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_exti.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_gpio.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_rcc.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_sdio.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_spi.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/misc.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_adc.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_dma.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_exti.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_gpio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_rcc.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_sdio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_spi.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_syscfg.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/source/stm32f4xx_tim.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_syscfg.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/kartav2/cmsis_lib/include/stm32f4xx_tim.h"/>
+</editors>
+<item historyLabel="stm32f4xx_gpio.c" index="13">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_rcc.c" index="14">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_adc.c" index="10">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_dma.c" index="11">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_exti.c" index="12">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_gpio.c" index="13">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_rcc.c" index="14">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_spi.c" index="16">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_syscfg.c" index="17">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_tim.c" index="18">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_syscfg.c" index="17">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_spi.c" index="16">
+<position/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position/>
+</item>
+<item historyLabel="Repository" index="0"/>
+<item historyLabel="misc.h" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_adc.h" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_dma.h" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_exti.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_gpio.h" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_rcc.h" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_sdio.h" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_spi.h" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_syscfg.h" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_tim.h" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_rcc.h" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_exti.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Repository" index="0"/>
+<item historyLabel="misc.c" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_adc.c" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_dma.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_exti.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_gpio.c" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_rcc.c" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_spi.c" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_syscfg.c" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_tim.c" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_syscfg.c" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_spi.c" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_sdio.c" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_gpio.c" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_exti.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_dma.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Repository" index="0"/>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" tooltip="kartav2/cmsis_lib/include/defines.h">
-<persistable path="/kartav2/cmsis_lib/include/defines.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_tim.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_tim.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_tim.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="diskio.c" tooltip="kartav2/cmsis_lib/source/diskio.c">
-<persistable path="/kartav2/cmsis_lib/source/diskio.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_syscfg.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_syscfg.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_syscfg.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="diskio.h" tooltip="kartav2/cmsis_lib/include/diskio.h">
-<persistable path="/kartav2/cmsis_lib/include/diskio.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_spi.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_spi.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_spi.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="proba2/main.c">
-<persistable path="/proba2/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_sdio.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_sdio.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_sdio.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_dac.h" tooltip="test/cmsis_lib/include/stm32f4xx_dac.h">
-<persistable path="/test/cmsis_lib/include/stm32f4xx_dac.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_rcc.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_rcc.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_ili9341.h" tooltip="test/cmsis_lib/include/tm_stm32f4_ili9341.h">
-<persistable path="/test/cmsis_lib/include/tm_stm32f4_ili9341.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_gpio.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_gpio.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ffconf.h" tooltip="test/cmsis_lib/include/ffconf.h">
-<persistable path="/test/cmsis_lib/include/ffconf.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_exti.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_exti.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_exti.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ff.h" tooltip="test/cmsis_lib/include/ff.h">
-<persistable path="/test/cmsis_lib/include/ff.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_dma.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_dma.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_dma.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ff.c" tooltip="test/cmsis_lib/source/ff.c">
-<persistable path="/test/cmsis_lib/source/ff.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_adc.c" tooltip="kartav2/cmsis_lib/source/stm32f4xx_adc.c">
+<persistable path="/kartav2/cmsis_lib/source/stm32f4xx_adc.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cc949.c" tooltip="test/cmsis_lib/source/cc949.c">
-<persistable path="/test/cmsis_lib/source/cc949.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="misc.c" tooltip="kartav2/cmsis_lib/source/misc.c">
+<persistable path="/kartav2/cmsis_lib/source/misc.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cc950.c" tooltip="test/cmsis_lib/source/cc950.c">
-<persistable path="/test/cmsis_lib/source/cc950.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_tim.h" tooltip="kartav2/cmsis_lib/include/stm32f4xx_tim.h">
+<persistable path="/kartav2/cmsis_lib/include/stm32f4xx_tim.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cc936.c" tooltip="test/cmsis_lib/source/cc936.c">
-<persistable path="/test/cmsis_lib/source/cc936.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_syscfg.h" tooltip="kartav2/cmsis_lib/include/stm32f4xx_syscfg.h">
+<persistable path="/kartav2/cmsis_lib/include/stm32f4xx_syscfg.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cc932.c" tooltip="test/cmsis_lib/source/cc932.c">
-<persistable path="/test/cmsis_lib/source/cc932.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_spi.h" tooltip="kartav2/cmsis_lib/include/stm32f4xx_spi.h">
+<persistable path="/kartav2/cmsis_lib/include/stm32f4xx_spi.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_delay.c" tooltip="test/cmsis_lib/source/tm_stm32f4_delay.c">
-<persistable path="/test/cmsis_lib/source/tm_stm32f4_delay.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_sdio.h" tooltip="kartav2/cmsis_lib/include/stm32f4xx_sdio.h">
+<persistable path="/kartav2/cmsis_lib/include/stm32f4xx_sdio.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_delay.h" tooltip="test/cmsis_lib/include/tm_stm32f4_delay.h">
-<persistable path="/test/cmsis_lib/include/tm_stm32f4_delay.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.h" tooltip="kartav2/cmsis_lib/include/stm32f4xx_rcc.h">
+<persistable path="/kartav2/cmsis_lib/include/stm32f4xx_rcc.h"/>
 </file>
 </mruList>
 </workbench>
