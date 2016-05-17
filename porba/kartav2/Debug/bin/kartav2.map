@@ -55,8 +55,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 ..\obj\stm32f4xx_dac.o
  .debug_ranges  0x00000000       0x90 ..\obj\stm32f4xx_dac.o
- .debug_line    0x00000000      0x3be ..\obj\stm32f4xx_dac.o
- .debug_str     0x00000000      0x466 ..\obj\stm32f4xx_dac.o
+ .debug_line    0x00000000      0x3e2 ..\obj\stm32f4xx_dac.o
+ .debug_str     0x00000000      0x46f ..\obj\stm32f4xx_dac.o
  .comment       0x00000000       0x6f ..\obj\stm32f4xx_dac.o
  .debug_frame   0x00000000      0x2ac ..\obj\stm32f4xx_dac.o
  .ARM.attributes
@@ -240,8 +240,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x148 ..\obj\stm32f4xx_adc.o
  .debug_ranges  0x00000000      0x138 ..\obj\stm32f4xx_adc.o
- .debug_line    0x00000000      0x5c9 ..\obj\stm32f4xx_adc.o
- .debug_str     0x00000000      0x817 ..\obj\stm32f4xx_adc.o
+ .debug_line    0x00000000      0x5ed ..\obj\stm32f4xx_adc.o
+ .debug_str     0x00000000      0x820 ..\obj\stm32f4xx_adc.o
  .comment       0x00000000       0x6f ..\obj\stm32f4xx_adc.o
  .debug_frame   0x00000000      0x5ec ..\obj\stm32f4xx_adc.o
  .ARM.attributes
@@ -332,8 +332,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xe0 ..\obj\stm32f4xx_spi.o
  .debug_ranges  0x00000000       0xd0 ..\obj\stm32f4xx_spi.o
- .debug_line    0x00000000      0x4c5 ..\obj\stm32f4xx_spi.o
- .debug_str     0x00000000      0x69d ..\obj\stm32f4xx_spi.o
+ .debug_line    0x00000000      0x4e9 ..\obj\stm32f4xx_spi.o
+ .debug_str     0x00000000      0x6a6 ..\obj\stm32f4xx_spi.o
  .comment       0x00000000       0x6f ..\obj\stm32f4xx_spi.o
  .debug_frame   0x00000000      0x3f4 ..\obj\stm32f4xx_spi.o
  .ARM.attributes
@@ -456,9 +456,9 @@ Discarded input sections
  .text.TIM_OC4PolarityConfig
                 0x00000000       0x3c ..\obj\stm32f4xx_tim.o
  .text.TIM_CCxCmd
-                0x00000000       0x5c ..\obj\stm32f4xx_tim.o
+                0x00000000       0x58 ..\obj\stm32f4xx_tim.o
  .text.TIM_CCxNCmd
-                0x00000000       0x5c ..\obj\stm32f4xx_tim.o
+                0x00000000       0x58 ..\obj\stm32f4xx_tim.o
  .text.TIM_ICInit
                 0x00000000       0xa8 ..\obj\stm32f4xx_tim.o
  .text.TIM_ICStructInit
@@ -844,22 +844,22 @@ LOAD ..\obj\stm32f4xx_exti.o
 LOAD ..\obj\misc.o
 LOAD ..\obj\stm32f4xx_tim.o
 START GROUP
-LOAD g:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7e-m\libgcc.a
-LOAD g:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a
-LOAD g:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libc.a
+LOAD f:/program files (x86)/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a
+LOAD f:/program files (x86)/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a
+LOAD f:/program files (x86)/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7e-m\libc.a
 END GROUP
 OUTPUT(kartav2.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x4a9f
+.debug_info     0x00000000     0x4af2
  .debug_info    0x00000000      0x274 ..\obj\stm32f4xx_syscfg.o
- .debug_info    0x00000274       0xed ..\obj\startup_stm32f4xx.o
- .debug_info    0x00000361      0xa34 ..\obj\main.o
- .debug_info    0x00000d95      0xc59 ..\obj\stm32f4xx_rcc.o
- .debug_info    0x000019ee      0x61a ..\obj\stm32f4xx_gpio.o
- .debug_info    0x00002008      0x596 ..\obj\system_stm32f4xx.o
- .debug_info    0x0000259e      0x357 ..\obj\stm32f4xx_exti.o
- .debug_info    0x000028f5      0x541 ..\obj\misc.o
- .debug_info    0x00002e36     0x1c69 ..\obj\stm32f4xx_tim.o
+ .debug_info    0x00000274       0xf2 ..\obj\startup_stm32f4xx.o
+ .debug_info    0x00000366      0xa34 ..\obj\main.o
+ .debug_info    0x00000d9a      0xc63 ..\obj\stm32f4xx_rcc.o
+ .debug_info    0x000019fd      0x61a ..\obj\stm32f4xx_gpio.o
+ .debug_info    0x00002017      0x5c5 ..\obj\system_stm32f4xx.o
+ .debug_info    0x000025dc      0x357 ..\obj\stm32f4xx_exti.o
+ .debug_info    0x00002933      0x556 ..\obj\misc.o
+ .debug_info    0x00002e89     0x1c69 ..\obj\stm32f4xx_tim.o
 
 .debug_abbrev   0x00000000      0xc98
  .debug_abbrev  0x00000000      0x133 ..\obj\stm32f4xx_syscfg.o
@@ -903,36 +903,36 @@ OUTPUT(kartav2.elf elf32-littlearm)
  .debug_ranges  0x00000300       0x30 ..\obj\misc.o
  .debug_ranges  0x00000330      0x2e8 ..\obj\stm32f4xx_tim.o
 
-.debug_line     0x00000000     0x239f
- .debug_line    0x00000000      0x264 ..\obj\stm32f4xx_syscfg.o
- .debug_line    0x00000264       0xb4 ..\obj\startup_stm32f4xx.o
- .debug_line    0x00000318      0x39e ..\obj\main.o
- .debug_line    0x000006b6      0x611 ..\obj\stm32f4xx_rcc.o
- .debug_line    0x00000cc7      0x3cc ..\obj\stm32f4xx_gpio.o
- .debug_line    0x00001093      0x228 ..\obj\system_stm32f4xx.o
- .debug_line    0x000012bb      0x30d ..\obj\stm32f4xx_exti.o
- .debug_line    0x000015c8      0x2aa ..\obj\misc.o
- .debug_line    0x00001872      0xb2d ..\obj\stm32f4xx_tim.o
+.debug_line     0x00000000     0x24ad
+ .debug_line    0x00000000      0x27f ..\obj\stm32f4xx_syscfg.o
+ .debug_line    0x0000027f       0xbd ..\obj\startup_stm32f4xx.o
+ .debug_line    0x0000033c      0x3c2 ..\obj\main.o
+ .debug_line    0x000006fe      0x635 ..\obj\stm32f4xx_rcc.o
+ .debug_line    0x00000d33      0x3f0 ..\obj\stm32f4xx_gpio.o
+ .debug_line    0x00001123      0x23a ..\obj\system_stm32f4xx.o
+ .debug_line    0x0000135d      0x331 ..\obj\stm32f4xx_exti.o
+ .debug_line    0x0000168e      0x2ce ..\obj\misc.o
+ .debug_line    0x0000195c      0xb51 ..\obj\stm32f4xx_tim.o
 
-.debug_str      0x00000000     0x2430
- .debug_str     0x00000000      0x2a9 ..\obj\stm32f4xx_syscfg.o
-                                0x307 (size before relaxing)
- .debug_str     0x000002a9       0xc3 ..\obj\startup_stm32f4xx.o
-                                0x15a (size before relaxing)
- .debug_str     0x0000036c      0xaf5 ..\obj\main.o
-                                0xc76 (size before relaxing)
- .debug_str     0x00000e61      0x64f ..\obj\stm32f4xx_rcc.o
-                                0x863 (size before relaxing)
- .debug_str     0x000014b0      0x1b0 ..\obj\stm32f4xx_gpio.o
-                                0x4b6 (size before relaxing)
- .debug_str     0x00001660      0x12b ..\obj\system_stm32f4xx.o
-                                0x3bd (size before relaxing)
- .debug_str     0x0000178b      0x120 ..\obj\stm32f4xx_exti.o
-                                0x36c (size before relaxing)
- .debug_str     0x000018ab      0x174 ..\obj\misc.o
-                                0x3e1 (size before relaxing)
- .debug_str     0x00001a1f      0xa11 ..\obj\stm32f4xx_tim.o
-                                0xde3 (size before relaxing)
+.debug_str      0x00000000     0x2481
+ .debug_str     0x00000000      0x2b2 ..\obj\stm32f4xx_syscfg.o
+                                0x310 (size before relaxing)
+ .debug_str     0x000002b2       0xcc ..\obj\startup_stm32f4xx.o
+                                0x163 (size before relaxing)
+ .debug_str     0x0000037e      0xafe ..\obj\main.o
+                                0xc7f (size before relaxing)
+ .debug_str     0x00000e7c      0x658 ..\obj\stm32f4xx_rcc.o
+                                0x86c (size before relaxing)
+ .debug_str     0x000014d4      0x1b9 ..\obj\stm32f4xx_gpio.o
+                                0x4bf (size before relaxing)
+ .debug_str     0x0000168d      0x134 ..\obj\system_stm32f4xx.o
+                                0x3c6 (size before relaxing)
+ .debug_str     0x000017c1      0x129 ..\obj\stm32f4xx_exti.o
+                                0x375 (size before relaxing)
+ .debug_str     0x000018ea      0x17d ..\obj\misc.o
+                                0x3ea (size before relaxing)
+ .debug_str     0x00001a67      0xa1a ..\obj\stm32f4xx_tim.o
+                                0xdec (size before relaxing)
 
 .comment        0x00000000       0x6e
  .comment       0x00000000       0x6e ..\obj\stm32f4xx_syscfg.o

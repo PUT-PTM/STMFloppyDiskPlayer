@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4\cmsis_lib\include -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4\delay -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4\cmsis -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4 -IC:\Users\User\Desktop\STMFloppyDiskPlayer -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4\cmsis_lib -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4\lib_cm4 -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4\FatFs_SD -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav4\cmsis_boot -IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer">
+      <target file="stm32f4xx_exti.o" lastModified="154bc31cdc9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="karta_sd.o" lastModified="154bc31c598">
+         <source file="..\..\..\karta_sd.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="154bc31c980">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="154bc31be86">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="154bc31bd52">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="154bc31befa">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154bc31cf5f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="154bc31c661">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154bc31ca0d">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="misc.o" lastModified="154bc31ce53">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="154bc31cab2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="154bc31cc86">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="codec.o" lastModified="154bc31c1c4">
+         <source file="..\..\..\codec.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="diody.o" lastModified="154bc31c72a">
+         <source file="..\..\..\diody.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154bc31c125">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="fpu.o" lastModified="154bc31bf7d">
+         <source file="..\..\..\lib_cm4\fpu.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="delay.o" lastModified="154bc31bdda">
+         <source file="..\..\..\delay\delay.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="przycisk.o" lastModified="154bc31c7f4">
+         <source file="..\..\..\przycisk.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="154bc31cd3b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="spi_sd.o" lastModified="154bc31c8d3">
+         <source file="..\..\..\FatFs_SD\spi_sd.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="ff.o" lastModified="154bc31cbe0">
+         <source file="..\..\..\FatFs_SD\ff.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="vectors.o" lastModified="154bc31bcca">
+         <source file="..\..\..\lib_cm4\vectors.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="main.o" lastModified="154bc31c063">
+         <source file="..\..\..\main.c" lastModified="146a7c60130"/>
+      </target>
+   </processor>
+</history>
