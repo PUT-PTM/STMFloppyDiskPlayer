@@ -102,14 +102,14 @@
       <target file="ff.o" lastModified="154bbfbfa50">
          <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.c" lastModified="146a7c60130"/>
       </target>
-      <target file="main.o" lastModified="154bbfbedb3">
-         <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\main.c" lastModified="154bba99a41"/>
-      </target>
-      <target file="system_stm32f4xx.o" lastModified="154bbfbf817">
-         <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.c" lastModified="146a7c60130"/>
+      <target file="main.o" lastModified="154bc358703">
+         <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\main.c" lastModified="146a7c60130"/>
       </target>
       <target file="diody.o" lastModified="154bbfbf4aa">
          <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154bbfbf817">
+         <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.c" lastModified="146a7c60130"/>
       </target>
       <target file="spi_sd.o" lastModified="154bbfbf672">
          <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.c" lastModified="146a7c60130"/>

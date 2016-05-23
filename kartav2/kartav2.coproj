@@ -85,8 +85,8 @@
   </Components>
   <Files>
     <File name="FatFs_SD/ff.c" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/FatFs_SD/ff.c" type="1"/>
-    <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.o" type="1"/>
     <File name="ub/stm32_ub_fatfs.c" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/ub/stm32_ub_fatfs.c" type="1"/>
+    <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/timers.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/timers.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/queue.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/queue.o" type="1"/>
     <File name="FatFs_SD" path="" type="2"/>
@@ -111,8 +111,8 @@
     <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.o" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_syscfg.c" path="cmsis_lib/source/stm32f4xx_syscfg.c" type="1"/>
-    <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/portable/GCC/ARM_CM4F" path="" type="2"/>
+    <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.o" type="1"/>
@@ -168,8 +168,8 @@
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o" type="1"/>
     <File name="cmsis_lib/source/misc.c" path="cmsis_lib/source/misc.c" type="1"/>
-    <File name="cmsis_lib/include/stm32f4xx_tim.h" path="cmsis_lib/include/stm32f4xx_tim.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_adc.c" path="cmsis_lib/source/stm32f4xx_adc.c" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_tim.h" path="cmsis_lib/include/stm32f4xx_tim.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_i2c.c" path="cmsis_lib/source/stm32f4xx_i2c.c" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o" type="1"/>
     <File name="cmsis_lib/source" path="" type="2"/>
@@ -177,9 +177,9 @@
     <File name="lib_cm4" path="" type="2"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.o" type="1"/>
     <File name="diody.h" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/diody.h" type="1"/>
-    <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
-    <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/portable" path="" type="2"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.o" type="1"/>
+    <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/portable" path="" type="2"/>
+    <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
     <File name="delay/delay.c" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/delay/delay.c" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/utils.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/utils.o" type="1"/>
@@ -190,23 +190,23 @@
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.o" type="1"/>
     <File name="FatFs_SD/diskio.h" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/FatFs_SD/diskio.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_sdio.c" path="cmsis_lib/source/stm32f4xx_sdio.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_sdio.h" path="cmsis_lib/include/stm32f4xx_sdio.h" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.o" type="1"/>
-    <File name="cmsis_lib/source/stm32f4xx_sdio.c" path="cmsis_lib/source/stm32f4xx_sdio.c" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.o" type="1"/>
     <File name="lib_cm4/startup.S" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/lib_cm4/startup.S" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/portable/GCC/ARM_CM4F/port.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/portable/GCC/ARM_CM4F/port.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4_discovery.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4_discovery.o" type="1"/>
-    <File name="cmsis_lib/source/stm32f4xx_exti.c" path="cmsis_lib/source/stm32f4xx_exti.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_exti.h" path="cmsis_lib/include/stm32f4xx_exti.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_exti.c" path="cmsis_lib/source/stm32f4xx_exti.c" type="1"/>
     <File name="FatFs_SD/ffconf.h" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/FatFs_SD/ffconf.h" type="1"/>
     <File name="lib_cm4/core_cmInstr.h" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/lib_cm4/core_cmInstr.h" type="1"/>
     <File name="lib_cm4/system_stm32f4xx.h" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/lib_cm4/system_stm32f4xx.h" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_dma.h" path="cmsis_lib/include/stm32f4xx_dma.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_tim.c" path="cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
-    <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/portable/MemMang/heap_2.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS/portable/MemMang/heap_2.o" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o" path="STM32F4-FreeRTOS-Demo1/Test1/Debug/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o" type="1"/>
     <File name="STM32F4-FreeRTOS-Demo1/Test1/Debug/src/FreeRTOS" path="" type="2"/>
     <File name="lib_cm4/core_cm4.h" path="../../../Nowy folder/STM32F4_musicPlayer-master/testy_i_powrorki/lib_cm4/core_cm4.h" type="1"/>

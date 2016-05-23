@@ -1,5 +1,216 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
+   <includePath signature="/IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4 /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_lib\include /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_boot /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\ub /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2 /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_lib /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki /IC:\Users\User\Desktop\Nowy folder">
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\diskio.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx_conf.h" lastModified="146a7c63bc8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\system_stm32f4xx.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\fpu.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\fpu.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h" lastModified="146a7c60518">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx.h" lastModified="146a7c60518">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\integer.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ffconf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.c" lastModified="146a7c60518">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\startup.S" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\hdr_special_registers.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmFunc.h" lastModified="146a7c60518">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\vectors.c" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ffconf.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4_simd.h" lastModified="146a7c60518">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="146a7c63bc8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\codec.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\integer.h" lastModified="146a7c60900">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\codec.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\codec.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4.h" lastModified="146a7c60518">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmInstr.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmFunc.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\przycisk.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\przycisk.c" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\przycisk.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmInstr.h" lastModified="146a7c60518">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\diskio.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\integer.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\hdr_special_registers.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="146a7c60130">
+         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
+      </source>
+   </includePath>
    <includePath signature="/IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2 /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_lib\include /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_lib /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_boot /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\ub /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master /IC:\Users\User\Desktop\Nowy folder /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer">
       <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.c" lastModified="146a7c60130">
          <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.h"/>
@@ -57,197 +268,6 @@
          <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\integer.h"/>
       </source>
       <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.h" lastModified="146a7c60130">
-      </source>
-   </includePath>
-   <includePath signature="/IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4 /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_lib\include /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_boot /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\ub /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2 /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_lib /IC:\Users\User\Desktop\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki /IC:\Users\User\Desktop\Nowy folder">
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\diskio.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx_conf.h" lastModified="146a7c63bc8">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\system_stm32f4xx.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\fpu.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\fpu.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h" lastModified="146a7c60518">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\system_stm32f4xx.h"/>
-         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx.h" lastModified="146a7c60518">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\system_stm32f4xx.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\cmsis_boot\stm32f4xx_conf.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\integer.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ffconf.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.c" lastModified="146a7c60518">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\diskio.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\startup.S" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\hdr_special_registers.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmFunc.h" lastModified="146a7c60518">
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\vectors.c" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ffconf.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\main.h" lastModified="146a7c60900">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\codec.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\ff.h"/>
-         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\fpu.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\przycisk.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\main.c" lastModified="154bba99a41">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\main.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4_simd.h" lastModified="146a7c60518">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\codec.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="146a7c63bc8">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\delay\delay.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\integer.h" lastModified="146a7c60900">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\codec.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\codec.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4.h" lastModified="146a7c60518">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmInstr.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmFunc.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cm4_simd.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\przycisk.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\karta_sd.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\przycisk.c" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\diody.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\przycisk.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\core_cmInstr.h" lastModified="146a7c60518">
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\diskio.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\integer.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\FatFs_SD\spi_sd.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\hdr_special_registers.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="146a7c60130">
-         <include file="..\..\..\..\..\..\Nowy folder\STM32F4_musicPlayer-master\testy_i_powrorki\lib_cm4\stm32f4xx.h"/>
       </source>
    </includePath>
    <includePath signature="/IC:\Users\User\Desktop\STMParkingAssistant-master\cmsis_lib /IC:\Users\User\Desktop\STMParkingAssistant-master /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2 /IC:\Users\User\Desktop\STMParkingAssistant-master\cmsis_lib\include /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer\kartav2\cmsis_boot /IC:\Users\User\Desktop\STMFloppyDiskPlayer\STMFloppyDiskPlayer">

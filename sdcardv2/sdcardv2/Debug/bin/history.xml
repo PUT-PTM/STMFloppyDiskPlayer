@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.2.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=sdcardv2.map -O0 --gc-sections -LG:\CooCox\CoIDE\configuration\ProgramData\sdcardv2 -TG:\CooCox\CoIDE\configuration\ProgramData\sdcardv2/arm-gcc-link.ld -g">
+      <target file="sdcardv2.elf" lastModified="154dfa56822">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="154dfa5416e"/>
+         <source file="..\obj\dqchan.o" lastModified="154dfa54207"/>
+         <source file="..\obj\scalfact.o" lastModified="154dfa542ac"/>
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="154dfa5435d"/>
+         <source file="..\obj\bitstream.o" lastModified="154dfa543f8"/>
+         <source file="..\obj\dequant.o" lastModified="154dfa5447e"/>
+         <source file="..\obj\hufftabs.o" lastModified="154dfa5451d"/>
+         <source file="..\obj\stm32f4xx_hash.o" lastModified="154dfa545ba"/>
+         <source file="..\obj\stm32f4xx_cryp_aes.o" lastModified="154dfa54672"/>
+         <source file="..\obj\imdct.o" lastModified="154dfa5474a"/>
+         <source file="..\obj\stm32f4xx_hash_sha1.o" lastModified="154dfa547e0"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="154dfa54895"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="154dfa5492c"/>
+         <source file="..\obj\stm32f4xx_can.o" lastModified="154dfa549fa"/>
+         <source file="..\obj\mp3tabs.o" lastModified="154dfa54a72"/>
+         <source file="..\obj\stm32f4xx_wwdg.o" lastModified="154dfa54b04"/>
+         <source file="..\obj\stm32f4xx_hash_md5.o" lastModified="154dfa54b9a"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="154dfa54c3c"/>
+         <source file="..\obj\subband.o" lastModified="154dfa54cc4"/>
+         <source file="..\obj\stm32f4xx_crc.o" lastModified="154dfa54d55"/>
+         <source file="..\obj\stm32f4xx_iwdg.o" lastModified="154dfa54de6"/>
+         <source file="..\obj\mp3dec.o" lastModified="154dfa54edb"/>
+         <source file="..\obj\main.o" lastModified="154dfa54ff4"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="154dfa550bb"/>
+         <source file="..\obj\karta_sd.o" lastModified="154dfa551e5"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="154dfa552aa"/>
+         <source file="..\obj\stm32f4xx_dcmi.o" lastModified="154dfa55345"/>
+         <source file="..\obj\stm32f4xx_cryp_des.o" lastModified="154dfa553df"/>
+         <source file="..\obj\stm32f4xx_cryp.o" lastModified="154dfa55486"/>
+         <source file="..\obj\stm32f4xx_fsmc.o" lastModified="154dfa5553b"/>
+         <source file="..\obj\spi_sd.o" lastModified="154dfa555f4"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="154dfa55693"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="154dfa5574b"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="154dfa557df"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="154dfa5588c"/>
+         <source file="..\obj\stproc.o" lastModified="154dfa55928"/>
+         <source file="..\obj\huffman.o" lastModified="154dfa559c6"/>
+         <source file="..\obj\trigtabs_fixpt.o" lastModified="154dfa55a40"/>
+         <source file="..\obj\buffers.o" lastModified="154dfa55ad2"/>
+         <source file="..\obj\ff.o" lastModified="154dfa55c06"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="154dfa55cb9"/>
+         <source file="..\obj\dct32.o" lastModified="154dfa55d60"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="154dfa55e19"/>
+         <source file="..\obj\stm32f4xx_rng.o" lastModified="154dfa55ea8"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="154dfa55f3d"/>
+         <source file="..\obj\misc.o" lastModified="154dfa55fcc"/>
+         <source file="..\obj\polyphase.o" lastModified="154dfa56088"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="154dfa5617c"/>
+         <source file="..\obj\stm32f4xx_cryp_tdes.o" lastModified="154dfa56213"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="154dfa56329"/>
+         <source file="..\obj\stm32f4xx_dbgmcu.o" lastModified="154dfa563b5"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\helix\real /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2 /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis_lib /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\lib /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis_boot /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\fatfs /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\helix /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\inc /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\lib\inc\core /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\lib\inc\peripherals /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\helix\pub /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\lib\inc /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis_lib\include /I..\..\..\..\..\Users\Patryk\Documents\GitHub">
+      <source file="..\..\..\fatfs\ffconf.h" lastModified="154d9dee5e8">
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\misc.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_cryp.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\assembly.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_iwdg.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_dac.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\fatfs\ff.h" lastModified="154d9dee5e7">
+         <include file="..\..\..\fatfs\integer.h"/>
+         <include file="..\..\..\fatfs\ffconf.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp_des.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_hash.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\fatfs\ff.c" lastModified="154d9dee9cd">
+         <include file="..\..\..\fatfs\ff.h"/>
+         <include file="..\..\..\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="154d9dee983">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="154d9dee5d0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\inc\stm32f4xx_it.h" lastModified="1384bc1cb20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Desktop\STM32F4_Discovery_MP3\src\stm32f4xx_it.c" lastModified="154dd3486b3">
+         <include file="..\..\..\inc\stm32f4xx_it.h"/>
+         <include file="..\..\..\inc\main.h"/>
+      </source>
+      <source file="..\..\..\helix\mp3dec.c" lastModified="138811ec228">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154d9dee5dd">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_tim.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_hash_sha1.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dqchan.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Desktop\STM32F4_Discovery_MP3\src\mp3_data.c" lastModified="154dd4973e7">
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_dcmi.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\statname.h" lastModified="138811ebe40">
+      </source>
+      <source file="..\..\..\helix\mp3tabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="154d9dee5c6">
+         <include file="..\..\..\lib\inc\peripherals\misc.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_wwdg.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\karta_sd.h" lastModified="154d9dee5ed">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_spi.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\fatfs\ff.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d9dee5ca">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dac.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_exti.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="154d9dee990">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\karta_sd.c" lastModified="154d9dee5ec">
+         <include file="..\..\..\karta_sd.h"/>
+      </source>
+      <source file="..\..\..\helix\real\coder.h" lastModified="13881b79340">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Desktop\STM32F4_Discovery_MP3\src\Audio.c" lastModified="154dd33ae29">
+         <include file="..\..\..\inc\Audio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_spi.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fatfs\diskio.h" lastModified="154d9dee5e2">
+         <include file="..\..\..\fatfs\integer.h"/>
+      </source>
+      <source file="..\..\..\helix\real\buffers.c" lastModified="1388af06e28">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_fsmc.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\huffman.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\fatfs\spi_sd.h" lastModified="154d9dee5eb">
+      </source>
+      <source file="..\..\..\inc\utils.h" lastModified="13875fac0e0">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="154d9dee5cd">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="154d9dee5ac">
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_hash.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_hash.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fatfs\spi_sd.c" lastModified="154d9dee5ea">
+         <include file="..\..\..\fatfs\spi_sd.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\fatfs\diskio.h"/>
+         <include file="..\..\..\delay\delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="154d9dee988">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="154d9dee5ab">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_dma.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_spi.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_usart.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Desktop\STM32F4_Discovery_MP3\src\syscalls.c" lastModified="154dd342064">
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\scalfact.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_flash.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_flash.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\inc\main.h" lastModified="13871e2d740">
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_usart.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_usart.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\helix\real\subband.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_dbgmcu.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\mp3common.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\pub\mp3dec.h"/>
+         <include file="..\..\..\helix\pub\statname.h"/>
+      </source>
+      <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="154d9dee985">
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_gpio.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\trigtabs_fixpt.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="154d9dee5aa">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_can.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_crc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dac.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dbgmcu.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dma.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_exti.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_flash.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_hash.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rng.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_spi.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_tim.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_usart.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\lib\inc\peripherals\misc.h"/>
+      </source>
+      <source file="..\..\..\helix\platform.h" lastModified="138811ec228">
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp_aes.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_rng.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rng.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_rng.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="154d9dee5d9">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_spi.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="154d9dee5cc">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dma.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib_cm4\fpu.h" lastModified="154d9dee5f7">
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_hash_md5.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp_tdes.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="154d9dee5d4">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_crc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_crc.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_syscfg.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_crc.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_fsmc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_adc.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dequant.c" lastModified="13881b0c510">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_iwdg.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\hufftabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="154d9dee5cf">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_sdio.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\inc\Audio.h" lastModified="138821ee090">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="154d9dee984">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="154d9dee5db">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fatfs\integer.h" lastModified="154d9deedb9">
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_dbgmcu.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_dbgmcu.h"/>
+      </source>
+      <source file="..\..\..\helix\real\imdct.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_i2c.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_dcmi.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="154d9dee5d6">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_pwr.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_can.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_can.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_pwr.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_can.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\src\peripherals\stm32f4xx_rtc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rtc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="154d9dee5c8">
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_adc.h"/>
+         <include file="..\..\..\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_rtc.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_wwdg.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\mp3dec.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\lib\inc\peripherals\stm32f4xx_tim.h" lastModified="13851f48640">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\delay\delay.h" lastModified="154d9dee5e0">
+      </source>
+      <source file="..\..\..\..\..\..\..\Desktop\STM32F4_Discovery_MP3\src\utils.c" lastModified="138761cb448">
+         <include file="..\..\..\inc\utils.h"/>
+      </source>
+      <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dct32.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+   </includePath>
+</dependencies>
