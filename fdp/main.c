@@ -74,6 +74,7 @@ void Init_GPIO()
 		GPIO_InitTypeDef GPIO_InitStructure;
 
 		/* Configure PD12, PD13, PD14 and PD15 in output pushpull mode */
+	
 		GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12 | GPIO_Pin_13| GPIO_Pin_14| GPIO_Pin_15;
 		GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
 		GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
