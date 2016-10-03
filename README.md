@@ -10,7 +10,7 @@ It play music on floppy disk driver using STM32F4 microcontroller. The control s
 CooCox CoIDE v 1.7.7
 
 ## How to run
-[PDF file with cable conection](https://github.com/PUT-PTM/STMFloppyDiskPlayer/HowToConnect.pdf)
+[PDF file with cable conection](https://github.com/PUT-PTM/STMFloppyDiskPlayer/blob/master/HowToConnect.pdf)
 
 
 ## How to compile
