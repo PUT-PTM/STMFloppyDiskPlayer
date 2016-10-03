@@ -1,25 +1,24 @@
 # STM Floppy Disk Player
 
 ## Overwiew
-Our project use STM32F4 microcontroller to play simple  music on  4 floppy disk drives . 
+Our project use STM32F4 microcontroller to play simple music on floppy disk driver . 
 
 ## Descripion
-It will be play music on up to four floppy disks from STMFDP format file on sd card. There will be converter from MIDI file to STMDFP file. 
+It play music on floppy disk driver using STM32F4 microcontroller. The control signal is generating on pin PB12.
 
 ## Tools
 CooCox CoIDE v 1.7.7
-Converter MIDI to STM Floppy Disk Player
 
 ## How to run
+[PDF file with cable conection](https://github.com/PUT-PTM/STMFloppyDiskPlayer/HowToConnect.pdf)
+
 
 ## How to compile
+If you are using the environment CoCox, just add in the Repository tab libraries listed in the file main.c.
 
-## Future improvements
-
-## Attributions
 
 ## License
-plik LICENCE
+file LICENCE
 
 ## Credits
 Marcin Hilt
